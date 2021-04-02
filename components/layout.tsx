@@ -2,11 +2,18 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import React from 'react'
 
-const name = 'someOne'
-export const siteTitle = "someOne's Black Box"
+const name: string = 'someOne'
+export const siteTitle: string = "someOne's Black Box"
 
-export default function Layout({ children, home }) {
+export default function Layout({
+  children,
+  home,
+}: {
+  children: React.ReactNode
+  home?: boolean
+}) {
   return (
     <div className={styles.container}>
       <Head>
