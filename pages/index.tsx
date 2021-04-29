@@ -24,7 +24,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <h4>Hi there 👋</h4>
         <p>🔭 I’m currently working on everywhere.</p>
-        <p>🌱 I’m currently learning Nextjs.</p>
+        <p>🌱 I’m currently learning Nextjs and Reactjs.</p>
         <p>👯 I’m looking to collaborate on ...</p>
         <p>🤔 I’m looking for help with ...</p>
         <p>📫 How to reach me: ...</p>
